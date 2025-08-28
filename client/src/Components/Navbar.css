@@ -1,0 +1,60 @@
+/* Navbar background & brand styling */
+.custom-navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.brand-highlight {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.brand-highlight:hover {
+  color: #ffcb05;
+}
+
+/* Nav links */
+.nav-link-style {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link-style:hover {
+  color: #ffc107 !important;
+}
+
+/* Active user welcome text */
+.nav-item span {
+  color: #f0f0f0;
+  font-size: 0.95rem;
+}
+
+/* Logout button */
+.btn-outline-light {
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #ffc107;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .navbar-nav {
+    gap: 1rem;
+  }
+
+  .nav-link-style {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}
